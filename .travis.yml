@@ -10,10 +10,8 @@ install:
   - pip install flake8
   - pip install flake8-docstrings
   - pip install pylint
-  - pip install pylint-django
-  - pip install pylint-quotes
   - pip install -r requirements.txt
 
 script:
-  - find . -name "*.py" | xargs pylint .
+  - find . -name "*.py" | xargs pylint
   - flake8 .
