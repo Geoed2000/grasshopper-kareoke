@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+
+string-quote=single
+triple-quote=double
+docstring-quote=double
